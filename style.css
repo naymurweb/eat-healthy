@@ -7,7 +7,53 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.gap {
+    padding: 60px 60px;
+}
+
+.mark {
+    color: #fba24f;
+}
+
+.btn {
+    padding: 12px 30px;
+    border-radius: 100px;
+    border: none;
+    background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+    color: white;
+}
+
 .container {
     max-width: 1140px;
     margin: 0 auto;
+}
+
+.hero-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    width: 50%;
+}
+
+.hero-text p {
+    margin: 16px 0;
+}
+
+.hero-image {
+    width: 50%;
 }
