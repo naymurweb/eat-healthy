@@ -15,6 +15,11 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+    color: #707070;
+}
+
 p {
     font-size: 18px;
 }
@@ -72,11 +77,6 @@ p {
     width: 50%;
 }
 
-.about-text h2 {
-    font-size: 40px;
-    color: #707070;
-}
-
 .about-section {
     background-image: url(./images/shapes/7.png);
     background-size: cover;
@@ -92,4 +92,31 @@ p {
 
 .about-text p {
     margin: 40px 0;
+}
+
+.main-card {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 400px;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.card h3 {
+    font-weight: bold;
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.main-recipies {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.main-recipies h2 {
+    margin-bottom: 20px;
 }
