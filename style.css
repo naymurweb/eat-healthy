@@ -117,6 +117,23 @@ p {
     margin-bottom: 45px;
 }
 
-.main-recipies h2 {
-    margin-bottom: 20px;
+.main-recipies p {
+    color: #252525;
+    margin-top: 20px;
+}
+
+.media {
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.data h2 {
+    color: #000;
+}
+
+.data p {
+    color: #676767;
 }
