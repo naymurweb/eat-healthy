@@ -33,6 +33,8 @@ p {
     border: none;
     background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
     color: white;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 .container {
@@ -56,4 +58,38 @@ p {
 
 .hero-image {
     width: 50%;
+}
+
+.about-image {
+    width: 50%;
+}
+
+.about-image img {
+    width: 60%;
+}
+
+.about-text {
+    width: 50%;
+}
+
+.about-text h2 {
+    font-size: 40px;
+    color: #707070;
+}
+
+.about-section {
+    background-image: url(./images/shapes/7.png);
+    background-size: cover;
+    background-position: center;
+    padding-top: 60px;
+}
+
+.about-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-text p {
+    margin: 40px 0;
 }
